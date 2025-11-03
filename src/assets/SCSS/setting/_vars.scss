@@ -1,0 +1,45 @@
+:root {
+  // 폰트
+  --mainEng-font: "Cafe24MeongiWhite";
+  --maintitlekor-font: "OngleipStudyWell";
+  --maintextkor-font: "OngleipRyuryu";
+
+  // color
+  --mianBg-color: #ffa4a4;
+  --subBg100: #ffbdbd;
+  --subBg200: #eecad5;
+  --subBg300: #fcf9ea;
+  --subBg400: #d1d3d4;
+  --subBg500: #badfdb;
+
+  --white: #fff;
+  --black: #000;
+  --black100: #1d1d1b;
+  --black200: #30302e;
+  --black300: #434341;
+  --black400: #565654;
+
+  // font-family
+  font-family: var(--mainEng-font), var(--maintitlekor-font),
+    var(--maintextkor-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  // 브라우저가 이탈릭체를 인위적으로 합성 no
+  font-synthesis: none;
+  // 텍스트 렌더링을 가독성 중심으로 처리하라고 함
+  text-rendering: optimizeLegibility;
+  // 주로 맥에서 폰트의 가장자리를 부드럽게 표시함
+  -webkit-font-smoothing: antialiased;
+  // 모바일 브라우저가 텍스트 크기를 자동으로 확대/축소하는 기능을 제어
+  -webkit-text-size-adjust: 100%;
+
+  // 반응형
+  @media (max-width: 800px) {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+body {
+  background-color: var(--mianBg-color);
+}

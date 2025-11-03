@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Cafe24MeongiWhite";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Meongi-W-v1.0.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OngleipRyuryu";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryurue-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OngleipStudyWell";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_StudyHard-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+// 영어 귀여운 글씨체
+.meongi {
+  font-family: "Cafe24MeongiWhite";
+}
+// 볼드한 한글
+.studywell {
+  font-family: "OngleipStudyWell";
+}
+//얇은 한글
+.Ryuryu {
+  font-family: "OngleipStudyWell";
+}
